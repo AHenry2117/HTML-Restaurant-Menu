@@ -2,19 +2,21 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: rgb(105, 105, 105);
     text-align: center;
 }
 
 h1,
 h2 {
-    color: darkred;
+    color: rgb(16, 7, 142);
+    font-weight: bold;
+    font-size: 8em;
 }
 
 h3, 
 p,
 li {
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -28,7 +30,8 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background-color: teal;
+    border: solid black;
     padding: 10px;
 }
 
@@ -44,12 +47,12 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: rgb(16, 7, 142);
     margin-right: 25px;
 }
 
 nav a:hover {
-    color: darkred;
+    color: rgb(4, 197, 42);
 }
 
 #banner {
@@ -65,16 +68,17 @@ nav a:hover {
 
 .service {
     display: inline-block;
-    background-color: white;
-    border: 5px solid green;
+    text-align: center;
+    background-color: teal;
+    border: 5px solid black;
     border-radius: 5px;
-    color: darkred;
+    color: black;
     font-size: 2em;
     padding: 20px;
     margin: 10px;
 }
 
-table {
+.table {
     border: 3px solid black;
     width: 100%;
 }
